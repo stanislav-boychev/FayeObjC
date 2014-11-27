@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.summary      = 'An Faye Objective-C client'
   spec.homepage     = 'https://github.com/stanislav-boychev/FayeObjC'
   spec.author       = 'pcrawfor'
-  spec.source       =  :git => 'https://github.com/stanislav-boychev/FayeObjC.git'
+  spec.source       = { :git => 'https://github.com/stanislav-boychev/FayeObjC.git' }
   spec.source_files = 'Library/*'
   spec.requires_arc = true
   spec.dependency 'SocketRocket'
