@@ -6,7 +6,7 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'https://github.com/stanislav-boychev/FayeObjC'
   spec.author       = 'pcrawfor'
   spec.source       = { :git => 'https://github.com/stanislav-boychev/FayeObjC.git' }
-  spec.source_files = 'Library/*'
+  spec.source_files = 'lib, src, FayeObjCLibrary, FayeObjCFramework}/**/*'
   spec.requires_arc = true
   spec.dependency 'SocketRocket'
 end
